@@ -1,0 +1,151 @@
+order_id,stage,event,details
+3db64ce753210d81c49f12e2c3b7bc75,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+3db64ce753210d81c49f12e2c3b7bc75,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹46.69
+3db64ce753210d81c49f12e2c3b7bc75,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+23c5d822ecef1bbf136d525d59caddb8,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+23c5d822ecef1bbf136d525d59caddb8,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹26.09
+23c5d822ecef1bbf136d525d59caddb8,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+dbdd3beb8869ae263445924f3f08a695,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+dbdd3beb8869ae263445924f3f08a695,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹154.18
+dbdd3beb8869ae263445924f3f08a695,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+223a155e5dad113ba43fff75ecbb3d06,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+223a155e5dad113ba43fff75ecbb3d06,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹68.66
+223a155e5dad113ba43fff75ecbb3d06,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+1d6df969542603d9f097e871bff9a9b7,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+1d6df969542603d9f097e871bff9a9b7,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹90.18
+1d6df969542603d9f097e871bff9a9b7,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+a7d77bb60d2aa33086558ed980891f8c,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+a7d77bb60d2aa33086558ed980891f8c,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹251.33
+a7d77bb60d2aa33086558ed980891f8c,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+a48666b91822bf899e34f73323d5dc37,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+a48666b91822bf899e34f73323d5dc37,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹39.28
+a48666b91822bf899e34f73323d5dc37,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+cc8389c87998ef48d592285b08d5106d,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+cc8389c87998ef48d592285b08d5106d,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹39.09
+cc8389c87998ef48d592285b08d5106d,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+c88935c0144ef18368420018e18f177a,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+c88935c0144ef18368420018e18f177a,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹48.11
+c88935c0144ef18368420018e18f177a,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+1e3445e33595212e158a97614da809ae,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+1e3445e33595212e158a97614da809ae,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹196.50
+1e3445e33595212e158a97614da809ae,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+b4facfa718232252607f49c3614e85cf,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+b4facfa718232252607f49c3614e85cf,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹89.88
+b4facfa718232252607f49c3614e85cf,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+c40cbf2797c3b0187b41ea072dcac55f,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+c40cbf2797c3b0187b41ea072dcac55f,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹1003.42
+c40cbf2797c3b0187b41ea072dcac55f,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+18eb75d1fa1fc1168de2bb0c4aa6dfd6,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+18eb75d1fa1fc1168de2bb0c4aa6dfd6,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹169.99
+18eb75d1fa1fc1168de2bb0c4aa6dfd6,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+5c5c9fde60ffb741545cf2608e8c12ca,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+5c5c9fde60ffb741545cf2608e8c12ca,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹613.78
+5c5c9fde60ffb741545cf2608e8c12ca,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+6baaa4f22af711c8b15dba8f8269edf8,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+6baaa4f22af711c8b15dba8f8269edf8,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹30.00
+6baaa4f22af711c8b15dba8f8269edf8,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+18d436f1bd867f1869bc3a16103a4b75,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+18d436f1bd867f1869bc3a16103a4b75,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹217.36
+18d436f1bd867f1869bc3a16103a4b75,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+c3665b33e58190870d82a79cc835cc30,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+c3665b33e58190870d82a79cc835cc30,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹114.76
+c3665b33e58190870d82a79cc835cc30,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+73d31477d79e7d244fe031d4b2c9c58d,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+73d31477d79e7d244fe031d4b2c9c58d,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹42.77
+73d31477d79e7d244fe031d4b2c9c58d,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+3a5cc35f681bd421b9ce2600aa48b4a6,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+3a5cc35f681bd421b9ce2600aa48b4a6,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹235.23
+3a5cc35f681bd421b9ce2600aa48b4a6,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+f7f4ddbedac13a064aeb2fe0d513cabd,DETECTION,EXCEPTION_DETECTED,Detected PAYMENT_ORDER_MISMATCH
+f7f4ddbedac13a064aeb2fe0d513cabd,EVIDENCE,EVIDENCE_COLLECTED,Exception=PAYMENT_ORDER_MISMATCH; Amount affected=₹695.99
+f7f4ddbedac13a064aeb2fe0d513cabd,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Reconcile the merchant order with the captured payment before requesting another payment.
+b3242decb71b67b79f3b2069effcbaa2,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+b3242decb71b67b79f3b2069effcbaa2,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹60.26
+b3242decb71b67b79f3b2069effcbaa2,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+ba0bb30d772cfeebd2419935f389cb2e,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+ba0bb30d772cfeebd2419935f389cb2e,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹126.77
+ba0bb30d772cfeebd2419935f389cb2e,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+dbed639a12dc60f5e3c08f284bb686cf,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+dbed639a12dc60f5e3c08f284bb686cf,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹91.59
+dbed639a12dc60f5e3c08f284bb686cf,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+d5499e385aef94ea76d2ea5e6a73e60a,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+d5499e385aef94ea76d2ea5e6a73e60a,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹24.23
+d5499e385aef94ea76d2ea5e6a73e60a,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+0616b1a248556f0f4c5aea97beb0729a,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+0616b1a248556f0f4c5aea97beb0729a,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹50.59
+0616b1a248556f0f4c5aea97beb0729a,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+3d205e6a3bde8bd5a480aba4d26dd315,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+3d205e6a3bde8bd5a480aba4d26dd315,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹12.80
+3d205e6a3bde8bd5a480aba4d26dd315,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+f5bb23a6bf7d9bd0d8b8d4575dd82b58,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+f5bb23a6bf7d9bd0d8b8d4575dd82b58,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹19.16
+f5bb23a6bf7d9bd0d8b8d4575dd82b58,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+0bcc4cc85c24f23e22013fd22f99728f,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+0bcc4cc85c24f23e22013fd22f99728f,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹58.50
+0bcc4cc85c24f23e22013fd22f99728f,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+6d710101fb9f067dd5385ea1b6021946,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+6d710101fb9f067dd5385ea1b6021946,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹6.83
+6d710101fb9f067dd5385ea1b6021946,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+bcf9b1ea597cf15ce7c93eebfd3a915a,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+bcf9b1ea597cf15ce7c93eebfd3a915a,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹11.13
+bcf9b1ea597cf15ce7c93eebfd3a915a,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+3099fa1da8ddf6f98c8a917af87540c5,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+3099fa1da8ddf6f98c8a917af87540c5,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹10.13
+3099fa1da8ddf6f98c8a917af87540c5,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+4dae49f3bd8b5abe8d252762a1c88a1f,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+4dae49f3bd8b5abe8d252762a1c88a1f,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹17.63
+4dae49f3bd8b5abe8d252762a1c88a1f,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+4f4aeb2e42b27f98c78a2adb81030b3b,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+4f4aeb2e42b27f98c78a2adb81030b3b,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹9.83
+4f4aeb2e42b27f98c78a2adb81030b3b,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+dab96f487f4979e8da25ec94ecc1f33a,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+dab96f487f4979e8da25ec94ecc1f33a,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹25.54
+dab96f487f4979e8da25ec94ecc1f33a,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+470dea50dbd9c5e77735b49bd904af6d,DETECTION,EXCEPTION_DETECTED,Detected SETTLEMENT_ANOMALY
+470dea50dbd9c5e77735b49bd904af6d,EVIDENCE,EVIDENCE_COLLECTED,Exception=SETTLEMENT_ANOMALY; Amount affected=₹44.80
+470dea50dbd9c5e77735b49bd904af6d,RECOMMENDATION,ACTION_RECOMMENDED,"Policy decision=AUTO_APPROVE; Recommendation=Reconcile the settlement against the payment, refunds, fees and other settlement adjustments."
+af70a5f50d99c3d85f9cc17bf5a854f3,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+af70a5f50d99c3d85f9cc17bf5a854f3,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹132.96
+af70a5f50d99c3d85f9cc17bf5a854f3,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+0c56c2d802da452669d191dfd438ac4c,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+0c56c2d802da452669d191dfd438ac4c,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹97.76
+0c56c2d802da452669d191dfd438ac4c,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+945dd5fdb173f89e1e87a833291b468e,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+945dd5fdb173f89e1e87a833291b468e,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹28.75
+945dd5fdb173f89e1e87a833291b468e,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+613d338b0c2fb3b1dd0a73d6f3bfbdcc,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+613d338b0c2fb3b1dd0a73d6f3bfbdcc,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹68.70
+613d338b0c2fb3b1dd0a73d6f3bfbdcc,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+b001d1893d61b0d3b035e0a05253eb43,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+b001d1893d61b0d3b035e0a05253eb43,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹140.89
+b001d1893d61b0d3b035e0a05253eb43,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+76b8258d41352cf46d8f0a57404d9c03,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+76b8258d41352cf46d8f0a57404d9c03,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹187.59
+76b8258d41352cf46d8f0a57404d9c03,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+0d8b3fb610ae4ac24891052ed60e8a2a,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+0d8b3fb610ae4ac24891052ed60e8a2a,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹107.80
+0d8b3fb610ae4ac24891052ed60e8a2a,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+1aa3c5dc3d9668e8fa8a0af87a8dbe55,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+1aa3c5dc3d9668e8fa8a0af87a8dbe55,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹72.14
+1aa3c5dc3d9668e8fa8a0af87a8dbe55,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+0fa61e1ac47c12200902e1f9d6b0e6ad,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+0fa61e1ac47c12200902e1f9d6b0e6ad,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹127.40
+0fa61e1ac47c12200902e1f9d6b0e6ad,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+e5c543adb388da035a48a7b7fd057f5a,DETECTION,EXCEPTION_DETECTED,Detected REFUND_ORDER_MISMATCH
+e5c543adb388da035a48a7b7fd057f5a,EVIDENCE,EVIDENCE_COLLECTED,Exception=REFUND_ORDER_MISMATCH; Amount affected=₹130.10
+e5c543adb388da035a48a7b7fd057f5a,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=HUMAN_REVIEW; Recommendation=Verify the refund status and reconcile the merchant order with the Razorpay refund record.
+fed39ea4db65131e475d2f1ed267cf1e,DETECTION,EXCEPTION_DETECTED,Detected WEBHOOK_FAILURE
+fed39ea4db65131e475d2f1ed267cf1e,EVIDENCE,EVIDENCE_COLLECTED,Exception=WEBHOOK_FAILURE; Amount affected=₹112.33
+fed39ea4db65131e475d2f1ed267cf1e,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=AUTO_APPROVE; Recommendation=Verify webhook delivery and replay or reconcile the missing event.
+6054edadd122478439d42520ff966ebb,DETECTION,EXCEPTION_DETECTED,Detected WEBHOOK_FAILURE
+6054edadd122478439d42520ff966ebb,EVIDENCE,EVIDENCE_COLLECTED,Exception=WEBHOOK_FAILURE; Amount affected=₹181.15
+6054edadd122478439d42520ff966ebb,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=AUTO_APPROVE; Recommendation=Verify webhook delivery and replay or reconcile the missing event.
+c55c2cba4bd6069c80c2531fe9a9188a,DETECTION,EXCEPTION_DETECTED,Detected WEBHOOK_FAILURE
+c55c2cba4bd6069c80c2531fe9a9188a,EVIDENCE,EVIDENCE_COLLECTED,Exception=WEBHOOK_FAILURE; Amount affected=₹159.69
+c55c2cba4bd6069c80c2531fe9a9188a,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=AUTO_APPROVE; Recommendation=Verify webhook delivery and replay or reconcile the missing event.
+b1498d9178bbadef1684ec3c4413cd31,DETECTION,EXCEPTION_DETECTED,Detected WEBHOOK_FAILURE
+b1498d9178bbadef1684ec3c4413cd31,EVIDENCE,EVIDENCE_COLLECTED,Exception=WEBHOOK_FAILURE; Amount affected=₹69.52
+b1498d9178bbadef1684ec3c4413cd31,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=AUTO_APPROVE; Recommendation=Verify webhook delivery and replay or reconcile the missing event.
+b779a5a05a7f2a1955da9631df2a275d,DETECTION,EXCEPTION_DETECTED,Detected WEBHOOK_FAILURE
+b779a5a05a7f2a1955da9631df2a275d,EVIDENCE,EVIDENCE_COLLECTED,Exception=WEBHOOK_FAILURE; Amount affected=₹82.83
+b779a5a05a7f2a1955da9631df2a275d,RECOMMENDATION,ACTION_RECOMMENDED,Policy decision=AUTO_APPROVE; Recommendation=Verify webhook delivery and replay or reconcile the missing event.

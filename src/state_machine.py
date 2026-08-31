@@ -1,8 +1,11 @@
+
 import pandas as pd
 from pathlib import Path
 
-INPUT_FILE = Path("output/razorguard_test.csv")
-OUTPUT_FILE = Path("output/financial_states.csv")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+INPUT_FILE = BASE_DIR / "output" / "razorguard_test.csv"
+OUTPUT_FILE = BASE_DIR / "output" / "test_financial_states.csv"
 
 df = pd.read_csv(INPUT_FILE)
 
@@ -10,41 +13,22 @@ states = []
 
 for _, row in df.iterrows():
 
-    # ---------------------------------------------
-    # Determine payment state
-    # ---------------------------------------------
-
     payment_state = row["payment_state"]
-
-    # ---------------------------------------------
-    # Determine merchant order state
-    # ---------------------------------------------
-
     merchant_state = row["merchant_order_state"]
-
-    # ---------------------------------------------
-    # Determine settlement state
-    # ---------------------------------------------
-
     settlement_state = row["settlement_status"]
-
-    # ---------------------------------------------
-    # Determine refund state
-    # ---------------------------------------------
-
     refund_state = row["refund_status"]
+    webhook_status = row["webhook_status"]
 
     # ---------------------------------------------
     # Determine overall financial state
     # ---------------------------------------------
 
+    # Webhook failure must be checked first
     if (
         payment_state == "CAPTURED"
-        and merchant_state == "PAID"
-        and settlement_state == "SETTLED"
-        and refund_state == "NOT_REFUNDED"
+        and webhook_status == "FAILED"
     ):
-        overall_state = "CONSISTENT"
+        overall_state = "WEBHOOK_EXCEPTION"
 
     elif (
         payment_state == "CAPTURED"
@@ -65,9 +49,12 @@ for _, row in df.iterrows():
 
     elif (
         payment_state == "CAPTURED"
-        and row["webhook_status"] == "FAILED"
+        and merchant_state == "PAID"
+        and settlement_state == "SETTLED"
+        and refund_state == "NOT_REFUNDED"
+        and webhook_status == "DELIVERED"
     ):
-        overall_state = "WEBHOOK_EXCEPTION"
+        overall_state = "CONSISTENT"
 
     else:
         overall_state = "REVIEW_REQUIRED"
@@ -78,9 +65,9 @@ for _, row in df.iterrows():
 
     if overall_state == "SETTLEMENT_EXCEPTION":
 
-        financial_exposure = (
-            row["payment_amount"]
-            - row["settlement_amount"]
+        financial_exposure = max(
+            0,
+            row["payment_amount"] - row["settlement_amount"]
         )
 
     elif overall_state == "REFUND_PENDING":
@@ -105,9 +92,12 @@ for _, row in df.iterrows():
         "merchant_order_state": merchant_state,
         "settlement_state": settlement_state,
         "refund_state": refund_state,
-        "webhook_status": row["webhook_status"],
+        "webhook_status": webhook_status,
         "overall_state": overall_state,
-        "financial_exposure": round(financial_exposure, 2)
+        "financial_exposure": round(
+            financial_exposure,
+            2
+        )
     })
 
 
@@ -119,22 +109,27 @@ states_df.to_csv(
 )
 
 print("\n===================================")
-print("       FINANCIAL STATE MACHINE")
+print("       RAZORGUARD TEST STATE MACHINE")
 print("===================================")
 
-print(f"\nTransactions processed: {len(states_df)}")
+print(
+    f"\nTransactions processed: {len(states_df)}"
+)
 
 print("\nState distribution:")
+
 print(
     states_df["overall_state"]
     .value_counts()
 )
 
 print(
-    "\nTotal financial exposure: ₹",
-    round(
-        states_df["financial_exposure"].sum(),
-        2
+    "\nTotal financial exposure: ₹"
+    + str(
+        round(
+            states_df["financial_exposure"].sum(),
+            2
+        )
     )
 )
 

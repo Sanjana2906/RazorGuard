@@ -1,0 +1,51 @@
+order_id,exception_type,severity,amount_affected,reason
+de9330ec1dd0af0751b5c24b612917d0,SETTLEMENT_ANOMALY,HIGH,19.38,Settlement amount is lower than the captured payment amount
+bb1af69d9c3122c683d442d8af845410,REFUND_ORDER_MISMATCH,MEDIUM,131.62,Merchant order is cancelled but customer refund is still pending
+6a5560b5b974183928205724063cdfa6,SETTLEMENT_ANOMALY,HIGH,41.75,Settlement amount is lower than the captured payment amount
+e0f57f06590a2aee981778faa5b7c80c,PAYMENT_ORDER_MISMATCH,HIGH,425.94,Payment is captured but merchant order is still marked UNPAID
+5346a99f61d771b889336c4a2c14e0b9,PAYMENT_ORDER_MISMATCH,HIGH,74.72,Payment is captured but merchant order is still marked UNPAID
+0bcc4cc85c24f23e22013fd22f99728f,PAYMENT_ORDER_MISMATCH,HIGH,195.0,Payment is captured but merchant order is still marked UNPAID
+f489949dbe23cf9313deb342913ece0c,REFUND_ORDER_MISMATCH,MEDIUM,1436.46,Merchant order is cancelled but customer refund is still pending
+5a911c89527605e73569727488b5468d,PAYMENT_ORDER_MISMATCH,HIGH,120.22,Payment is captured but merchant order is still marked UNPAID
+8bde999dc4ad8ff2e39ca01c02a81119,PAYMENT_ORDER_MISMATCH,HIGH,55.11,Payment is captured but merchant order is still marked UNPAID
+431edc9c63424518da8f273659cafa77,PAYMENT_ORDER_MISMATCH,HIGH,122.92,Payment is captured but merchant order is still marked UNPAID
+968daeb20a9a0e6c8433cad2c886756a,SETTLEMENT_ANOMALY,HIGH,21.34,Settlement amount is lower than the captured payment amount
+8048f4c2213c7ef433ffc4c00e017c14,WEBHOOK_FAILURE,HIGH,26.35,Payment is captured but the webhook delivery failed
+55e62ea5906d028721528c19cdd49bb0,WEBHOOK_FAILURE,HIGH,24.28,Payment is captured but the webhook delivery failed
+73840bb583b69b1d181d54f3f755a4e2,REFUND_ORDER_MISMATCH,MEDIUM,203.08,Merchant order is cancelled but customer refund is still pending
+1fab4ac9d85079b3da72a11475ae1685,REFUND_ORDER_MISMATCH,MEDIUM,243.01,Merchant order is cancelled but customer refund is still pending
+c00ec2c5d2f145b694e4f478c71c5711,PAYMENT_ORDER_MISMATCH,HIGH,704.32,Payment is captured but merchant order is still marked UNPAID
+f5218a2401f92542f87b1de5bc3f92ff,SETTLEMENT_ANOMALY,HIGH,16.66,Settlement amount is lower than the captured payment amount
+fa4c59a94711decb9c0410a0e7f878bc,PAYMENT_ORDER_MISMATCH,HIGH,32.67,Payment is captured but merchant order is still marked UNPAID
+cd7d5eba4ca59e359249279469aa4f7a,PAYMENT_ORDER_MISMATCH,HIGH,165.21,Payment is captured but merchant order is still marked UNPAID
+94a4d00bea6790d3c810c6b2f56b4d65,WEBHOOK_FAILURE,HIGH,134.19,Payment is captured but the webhook delivery failed
+0945dadba69dad599e42c31e78450de4,WEBHOOK_FAILURE,HIGH,1260.76,Payment is captured but the webhook delivery failed
+0901f97cdb91762c043d2330c81919a4,REFUND_ORDER_MISMATCH,MEDIUM,410.61,Merchant order is cancelled but customer refund is still pending
+9c3585240de3978338d7aa8c74ddfaa1,PAYMENT_ORDER_MISMATCH,HIGH,347.06,Payment is captured but merchant order is still marked UNPAID
+37f4b362697f5c9826aee9c479b32bda,PAYMENT_ORDER_MISMATCH,HIGH,73.77,Payment is captured but merchant order is still marked UNPAID
+12958a97a4e26a4e7dd8bce7de8955b9,SETTLEMENT_ANOMALY,HIGH,16.23,Settlement amount is lower than the captured payment amount
+6653d3fc131c01e7e7fa96daf4aea451,PAYMENT_ORDER_MISMATCH,HIGH,185.94,Payment is captured but merchant order is still marked UNPAID
+77f8ac5734b5b2f8c1572102f854d329,REFUND_ORDER_MISMATCH,MEDIUM,134.27,Merchant order is cancelled but customer refund is still pending
+b41f51ebf23530b00f69e5602f81a653,SETTLEMENT_ANOMALY,HIGH,58.5,Settlement amount is lower than the captured payment amount
+b2b345cd2633deaf2b69c3b5c5585afa,REFUND_ORDER_MISMATCH,MEDIUM,61.29,Merchant order is cancelled but customer refund is still pending
+ff7f5fd520c590ecb28347614bf26ae2,SETTLEMENT_ANOMALY,HIGH,51.97,Settlement amount is lower than the captured payment amount
+2efe2442effe17b5a17637c88ac2d0d8,SETTLEMENT_ANOMALY,HIGH,76.77,Settlement amount is lower than the captured payment amount
+7d4101163410b1380268da3933e691f1,SETTLEMENT_ANOMALY,HIGH,64.18,Settlement amount is lower than the captured payment amount
+d2b78e9e69a191c9f98ea4fec8e920ef,PAYMENT_ORDER_MISMATCH,HIGH,45.86,Payment is captured but merchant order is still marked UNPAID
+1e24c66f40e16d38609ed026af8b4c94,SETTLEMENT_ANOMALY,HIGH,27.95,Settlement amount is lower than the captured payment amount
+393e5ad5d9b558b7a0fd2cfc53f7f1d9,SETTLEMENT_ANOMALY,HIGH,65.05,Settlement amount is lower than the captured payment amount
+0b0bf8f9977e22517521efeefa4b7a27,PAYMENT_ORDER_MISMATCH,HIGH,167.51,Payment is captured but merchant order is still marked UNPAID
+31a8fcbeaa65f2a7dec1abee188ffcc9,SETTLEMENT_ANOMALY,HIGH,56.62,Settlement amount is lower than the captured payment amount
+4ee4b8462b9a39ac1fa86e28bcc22ad3,WEBHOOK_FAILURE,HIGH,71.61,Payment is captured but the webhook delivery failed
+ad01d61ec53a43d200f359c11347316f,PAYMENT_ORDER_MISMATCH,HIGH,40.21,Payment is captured but merchant order is still marked UNPAID
+36b036769c93a2e59324ac996fb51e2b,PAYMENT_ORDER_MISMATCH,HIGH,54.49,Payment is captured but merchant order is still marked UNPAID
+fe00e26eb05c951aad5cbc6b7f602edb,REFUND_ORDER_MISMATCH,MEDIUM,138.28,Merchant order is cancelled but customer refund is still pending
+67642a6b87ab5c8cdfffd5b81da8a501,PAYMENT_ORDER_MISMATCH,HIGH,115.45,Payment is captured but merchant order is still marked UNPAID
+e28f56dc0353b7bf8f78f05ac639ba21,SETTLEMENT_ANOMALY,HIGH,20.83,Settlement amount is lower than the captured payment amount
+a92a63c8deffa6b4843c8e30e10abbfc,REFUND_ORDER_MISMATCH,MEDIUM,186.62,Merchant order is cancelled but customer refund is still pending
+78d197a2bfdde2a4c64cf3e58ab2b7a3,PAYMENT_ORDER_MISMATCH,HIGH,125.8,Payment is captured but merchant order is still marked UNPAID
+db84f5852687abdb7f384d5ea4b638c9,PAYMENT_ORDER_MISMATCH,HIGH,179.56,Payment is captured but merchant order is still marked UNPAID
+c88935c0144ef18368420018e18f177a,REFUND_ORDER_MISMATCH,MEDIUM,48.11,Merchant order is cancelled but customer refund is still pending
+770d331c84e5b214bd9dc70a10b829d0,SETTLEMENT_ANOMALY,HIGH,79.18,Settlement amount is lower than the captured payment amount
+a7b3d17383515918f57cc831f29bc8dd,SETTLEMENT_ANOMALY,HIGH,13.45,Settlement amount is lower than the captured payment amount
+5f5d82c66499b9a72f7e8071477aee00,PAYMENT_ORDER_MISMATCH,HIGH,21.77,Payment is captured but merchant order is still marked UNPAID

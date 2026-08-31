@@ -1,0 +1,51 @@
+order_id,exception_type,amount_at_risk,severity,decision,reason
+de9330ec1dd0af0751b5c24b612917d0,SETTLEMENT_ANOMALY,19.38,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+bb1af69d9c3122c683d442d8af845410,REFUND_ORDER_MISMATCH,131.62,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+6a5560b5b974183928205724063cdfa6,SETTLEMENT_ANOMALY,41.75,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+e0f57f06590a2aee981778faa5b7c80c,PAYMENT_ORDER_MISMATCH,425.94,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+5346a99f61d771b889336c4a2c14e0b9,PAYMENT_ORDER_MISMATCH,74.72,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+0bcc4cc85c24f23e22013fd22f99728f,PAYMENT_ORDER_MISMATCH,195.0,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+f489949dbe23cf9313deb342913ece0c,REFUND_ORDER_MISMATCH,1436.46,HIGH,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+5a911c89527605e73569727488b5468d,PAYMENT_ORDER_MISMATCH,120.22,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+8bde999dc4ad8ff2e39ca01c02a81119,PAYMENT_ORDER_MISMATCH,55.11,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+431edc9c63424518da8f273659cafa77,PAYMENT_ORDER_MISMATCH,122.92,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+968daeb20a9a0e6c8433cad2c886756a,SETTLEMENT_ANOMALY,21.34,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+8048f4c2213c7ef433ffc4c00e017c14,WEBHOOK_FAILURE,26.35,LOW,AUTO_APPROVE,Non-monetary reconciliation action is permitted for webhook delivery failures.
+55e62ea5906d028721528c19cdd49bb0,WEBHOOK_FAILURE,24.28,LOW,AUTO_APPROVE,Non-monetary reconciliation action is permitted for webhook delivery failures.
+73840bb583b69b1d181d54f3f755a4e2,REFUND_ORDER_MISMATCH,203.08,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+1fab4ac9d85079b3da72a11475ae1685,REFUND_ORDER_MISMATCH,243.01,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+c00ec2c5d2f145b694e4f478c71c5711,PAYMENT_ORDER_MISMATCH,704.32,MEDIUM,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+f5218a2401f92542f87b1de5bc3f92ff,SETTLEMENT_ANOMALY,16.66,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+fa4c59a94711decb9c0410a0e7f878bc,PAYMENT_ORDER_MISMATCH,32.67,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+cd7d5eba4ca59e359249279469aa4f7a,PAYMENT_ORDER_MISMATCH,165.21,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+94a4d00bea6790d3c810c6b2f56b4d65,WEBHOOK_FAILURE,134.19,LOW,AUTO_APPROVE,Non-monetary reconciliation action is permitted for webhook delivery failures.
+0945dadba69dad599e42c31e78450de4,WEBHOOK_FAILURE,1260.76,HIGH,AUTO_APPROVE,Non-monetary reconciliation action is permitted for webhook delivery failures.
+0901f97cdb91762c043d2330c81919a4,REFUND_ORDER_MISMATCH,410.61,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+9c3585240de3978338d7aa8c74ddfaa1,PAYMENT_ORDER_MISMATCH,347.06,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+37f4b362697f5c9826aee9c479b32bda,PAYMENT_ORDER_MISMATCH,73.77,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+12958a97a4e26a4e7dd8bce7de8955b9,SETTLEMENT_ANOMALY,16.23,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+6653d3fc131c01e7e7fa96daf4aea451,PAYMENT_ORDER_MISMATCH,185.94,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+77f8ac5734b5b2f8c1572102f854d329,REFUND_ORDER_MISMATCH,134.27,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+b41f51ebf23530b00f69e5602f81a653,SETTLEMENT_ANOMALY,58.5,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+b2b345cd2633deaf2b69c3b5c5585afa,REFUND_ORDER_MISMATCH,61.29,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+ff7f5fd520c590ecb28347614bf26ae2,SETTLEMENT_ANOMALY,51.97,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+2efe2442effe17b5a17637c88ac2d0d8,SETTLEMENT_ANOMALY,76.77,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+7d4101163410b1380268da3933e691f1,SETTLEMENT_ANOMALY,64.18,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+d2b78e9e69a191c9f98ea4fec8e920ef,PAYMENT_ORDER_MISMATCH,45.86,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+1e24c66f40e16d38609ed026af8b4c94,SETTLEMENT_ANOMALY,27.95,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+393e5ad5d9b558b7a0fd2cfc53f7f1d9,SETTLEMENT_ANOMALY,65.05,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+0b0bf8f9977e22517521efeefa4b7a27,PAYMENT_ORDER_MISMATCH,167.51,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+31a8fcbeaa65f2a7dec1abee188ffcc9,SETTLEMENT_ANOMALY,56.62,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+4ee4b8462b9a39ac1fa86e28bcc22ad3,WEBHOOK_FAILURE,71.61,LOW,AUTO_APPROVE,Non-monetary reconciliation action is permitted for webhook delivery failures.
+ad01d61ec53a43d200f359c11347316f,PAYMENT_ORDER_MISMATCH,40.21,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+36b036769c93a2e59324ac996fb51e2b,PAYMENT_ORDER_MISMATCH,54.49,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+fe00e26eb05c951aad5cbc6b7f602edb,REFUND_ORDER_MISMATCH,138.28,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+67642a6b87ab5c8cdfffd5b81da8a501,PAYMENT_ORDER_MISMATCH,115.45,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+e28f56dc0353b7bf8f78f05ac639ba21,SETTLEMENT_ANOMALY,20.83,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+a92a63c8deffa6b4843c8e30e10abbfc,REFUND_ORDER_MISMATCH,186.62,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+78d197a2bfdde2a4c64cf3e58ab2b7a3,PAYMENT_ORDER_MISMATCH,125.8,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+db84f5852687abdb7f384d5ea4b638c9,PAYMENT_ORDER_MISMATCH,179.56,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.
+c88935c0144ef18368420018e18f177a,REFUND_ORDER_MISMATCH,48.11,LOW,HUMAN_REVIEW,Refund status affects customer liability and requires merchant verification.
+770d331c84e5b214bd9dc70a10b829d0,SETTLEMENT_ANOMALY,79.18,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+a7b3d17383515918f57cc831f29bc8dd,SETTLEMENT_ANOMALY,13.45,LOW,HUMAN_REVIEW,"Settlement discrepancy requires reconciliation against refunds, fees and adjustments."
+5f5d82c66499b9a72f7e8071477aee00,PAYMENT_ORDER_MISMATCH,21.77,LOW,HUMAN_REVIEW,Payment captured but merchant order is unpaid. Merchant state must be verified.

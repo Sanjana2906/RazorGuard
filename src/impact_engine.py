@@ -2,14 +2,16 @@ import pandas as pd
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-INPUT_FILE = BASE_DIR / "output" / "detected_exceptions.csv"
-OUTPUT_FILE = BASE_DIR / "output" / "impact_report.csv"
+
+INPUT_FILE = BASE_DIR / "output" / "test_detected_exceptions.csv"
+OUTPUT_FILE = BASE_DIR / "output" / "test_impact_report.csv"
 
 df = pd.read_csv(INPUT_FILE)
 
 print("\n===================================")
-print("       RAZORGUARD IMPACT ENGINE")
+print("       RAZORGUARD TEST IMPACT ENGINE")
 print("===================================\n")
+
 
 # --------------------------------------------------
 # 1. Calculate amount at risk
@@ -63,7 +65,10 @@ def generate_evidence(row):
     )
 
 
-df["evidence"] = df.apply(generate_evidence, axis=1)
+df["evidence"] = df.apply(
+    generate_evidence,
+    axis=1
+)
 
 
 # --------------------------------------------------
@@ -173,7 +178,7 @@ df["recommended_action"] = df.apply(
 
 
 # --------------------------------------------------
-# 6. Save impact report
+# 6. Save test impact report
 # --------------------------------------------------
 
 df.to_csv(
@@ -186,7 +191,9 @@ df.to_csv(
 # 7. Display results
 # --------------------------------------------------
 
-print(f"Exceptions with evidence: {len(df)}")
+print(
+    f"Exceptions with evidence: {len(df)}"
+)
 
 print(
     f"\nTotal amount affected: "
@@ -194,7 +201,9 @@ print(
 )
 
 print("\nBy exception type:")
-print(df["exception_type"].value_counts())
+print(
+    df["exception_type"].value_counts()
+)
 
 print("\nExample:")
 
@@ -216,3 +225,4 @@ print(
 
 print("\nSaved to:")
 print(OUTPUT_FILE)
+
