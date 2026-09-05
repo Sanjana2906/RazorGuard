@@ -15,10 +15,6 @@ print("Orders:", len(orders))
 print("Payments:", len(payments))
 print("Items:", len(items))
 
-# ---------------------------------------------------------
-# 1. Calculate total order value from order items
-# ---------------------------------------------------------
-
 order_values = (
     items.groupby("order_id")
     .agg(
@@ -33,10 +29,6 @@ order_values["expected_amount"] = (
     order_values["freight_value"]
 )
 
-# ---------------------------------------------------------
-# 2. Calculate total payment value for each order
-# ---------------------------------------------------------
-
 payment_values = (
     payments.groupby("order_id")
     .agg(
@@ -44,10 +36,6 @@ payment_values = (
     )
     .reset_index()
 )
-
-# ---------------------------------------------------------
-# 3. Merge order + payment + item information
-# ---------------------------------------------------------
 
 df = orders.merge(
     order_values,
@@ -60,10 +48,6 @@ df = df.merge(
     on="order_id",
     how="inner"
 )
-
-# ---------------------------------------------------------
-# 4. Keep useful fields
-# ---------------------------------------------------------
 
 df = df[
     [
@@ -78,11 +62,6 @@ df = df[
         "payment_amount"
     ]
 ].copy()
-
-# ---------------------------------------------------------
-# 5. Create merchant-side state
-# ---------------------------------------------------------
-
 df["merchant_order_state"] = df["order_status"].map(
     {
         "delivered": "PAID",
@@ -96,15 +75,7 @@ df["merchant_order_state"] = df["order_status"].map(
     }
 ).fillna("UNKNOWN")
 
-# ---------------------------------------------------------
-# 6. Create a simplified payment state
-# ---------------------------------------------------------
-
 df["payment_state"] = "CAPTURED"
-
-# ---------------------------------------------------------
-# 7. Basic amount consistency check
-# ---------------------------------------------------------
 
 df["amount_difference"] = (
     df["payment_amount"] - df["expected_amount"]
@@ -114,20 +85,12 @@ df["amount_match"] = (
     df["amount_difference"].abs() < 0.01
 )
 
-# ---------------------------------------------------------
-# 8. Select 500 records
-# ---------------------------------------------------------
-
 df = df.drop_duplicates("order_id")
 
 df = df.sample(
     n=min(500, len(df)),
     random_state=42
 ).reset_index(drop=True)
-
-# ---------------------------------------------------------
-# 9. Add RazorGuard fields
-# ---------------------------------------------------------
 
 df["payment_id"] = "pay_" + df.index.astype(str).str.zfill(6)
 
@@ -140,10 +103,6 @@ df["refund_status"] = "NOT_REFUNDED"
 df["refund_amount"] = 0.0
 
 df["webhook_status"] = "DELIVERED"
-
-# ---------------------------------------------------------
-# 10. Save
-# ---------------------------------------------------------
 
 output_file = OUTPUT_DIR / "razorguard_base.csv"
 
