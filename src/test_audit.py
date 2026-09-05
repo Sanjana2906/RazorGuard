@@ -17,9 +17,6 @@ for _, row in df.iterrows():
     amount = float(row["amount_at_risk"])
     decision = row["policy_decision"]
 
-    # ---------------------------------------------
-    # 1. Detection event
-    # ---------------------------------------------
 
     audit_events.append({
         "order_id": order_id,
@@ -27,10 +24,6 @@ for _, row in df.iterrows():
         "event": "EXCEPTION_DETECTED",
         "details": f"Detected {exception_type}",
     })
-
-    # ---------------------------------------------
-    # 2. Evidence event
-    # ---------------------------------------------
 
     audit_events.append({
         "order_id": order_id,
@@ -41,10 +34,6 @@ for _, row in df.iterrows():
             f"Amount affected=₹{amount:.2f}"
         ),
     })
-
-    # ---------------------------------------------
-    # 3. Recommendation event
-    # ---------------------------------------------
 
     audit_events.append({
         "order_id": order_id,
