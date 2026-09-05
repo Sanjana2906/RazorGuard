@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RazorGuard Test Payment</title>
+</head>
+<body>
+
+<h2>RazorGuard — Test Payment</h2>
+
+<button id="pay-btn">Pay ₹100 (Test Mode)</button>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+document.getElementById("pay-btn").onclick = function () {
+
+    const options = {
+        key: "rzp_test_TXtyYWiS90uMpx",
+
+        amount: 10000,
+        currency: "INR",
+
+        name: "RazorGuard",
+        description: "RazorGuard Test Payment",
+
+        order_id: "order_TXu8s6quwAZIIW",
+
+        handler: function (response) {
+            console.log("Payment successful!");
+            console.log(response);
+
+            document.body.innerHTML += `
+                <h3>Payment Successful</h3>
+                <p>Payment ID: ${response.razorpay_payment_id}</p>
+                <p>Order ID: ${response.razorpay_order_id}</p>
+            `;
+        }
+    };
+
+    const rzp = new Razorpay(options);
+    rzp.open();
+};
+</script>
+
+</body>
+</html>

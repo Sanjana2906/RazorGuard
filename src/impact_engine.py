@@ -18,7 +18,7 @@ print("===================================\n")
 # --------------------------------------------------
 
 if "amount_affected" in df.columns:
-    df["amount_at_risk"] = df["amount_affected"].abs()
+    df["amount_at_risk"] = df["amount_affected"].abs().round(2)
 
 elif "amount_at_risk" in df.columns:
     df["amount_at_risk"] = df["amount_at_risk"].abs()
