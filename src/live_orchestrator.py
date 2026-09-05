@@ -35,10 +35,6 @@ def process_live_transaction(
         -> Audit Trail
     """
 
-    # ==========================================================
-    # 1. GET TRANSACTION DATA
-    # ==========================================================
-
     if (
         payment_id is not None
         and payment_state is not None
@@ -64,10 +60,6 @@ def process_live_transaction(
 
         return transaction, exceptions
 
-    # ==========================================================
-    # 2. CROSS-SYSTEM EXCEPTION DETECTION
-    # ==========================================================
-
     exceptions = []
 
     if (
@@ -89,10 +81,6 @@ def process_live_transaction(
             )
         })
 
-    # ==========================================================
-    # 3. FINANCIAL STATE MACHINE
-    # ==========================================================
-
     if (
         transaction["payment_state"] == "CAPTURED"
         and transaction["merchant_order_state"] == "UNPAID"
@@ -112,10 +100,6 @@ def process_live_transaction(
         financial_state = "CONSISTENT"
 
     transaction["financial_state"] = financial_state
-
-    # ==========================================================
-    # 4. IMPACT ENGINE
-    # ==========================================================
 
     if exceptions:
 
@@ -288,10 +272,6 @@ def process_live_transaction(
             policy_decision["reason"]
         )
 
-    # ==========================================================
-    # 6. AI EXPLAINER
-    # ==========================================================
-
     if exceptions:
 
         exception = exceptions[0]
@@ -336,11 +316,6 @@ def process_live_transaction(
             "Recommendation:",
             ai_result["recommendation"]
         )
-
-    # ==========================================================
-    # 7. AUDIT TRAIL
-    # ==========================================================
-
     if exceptions:
 
         exception = exceptions[0]
@@ -383,10 +358,6 @@ def process_live_transaction(
             "\nAudit events created:",
             len(audit_events)
         )
-
-    # ==========================================================
-    # 8. FINAL DISPLAY
-    # ==========================================================
 
     print("\n" + "=" * 60)
     print("       RAZORGUARD LIVE ORCHESTRATOR")
@@ -459,11 +430,6 @@ def process_live_transaction(
         print("\n✓ No exception detected")
 
     return transaction, exceptions
-
-
-# ==========================================================
-# DIRECT TEST
-# ==========================================================
 
 if __name__ == "__main__":
 
