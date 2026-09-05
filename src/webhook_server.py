@@ -64,9 +64,7 @@ def mark_processed(event_id):
 @app.route("/webhook", methods=["POST"])
 def webhook():
 
-    # ==================================================
-    # 1. RAW REQUEST
-    # ==================================================
+    # 1. RAW REQUESt
 
     raw_body = request.get_data(as_text=True)
 
@@ -77,10 +75,7 @@ def webhook():
     event_id = request.headers.get(
         "x-razorpay-event-id"
     )
-
-    # ==================================================
     # 2. SECURITY
-    # ==================================================
 
     if not verify_signature(
         raw_body,
@@ -93,9 +88,7 @@ def webhook():
             "status": "invalid_signature"
         }), 400
 
-    # ==================================================
     # 3. IDEMPOTENCY
-    # ==================================================
 
     if already_processed(event_id):
 
@@ -110,9 +103,7 @@ def webhook():
             "status": "duplicate_ignored"
         }), 200
 
-    # ==================================================
     # 4. PARSE EVENT
-    # ==================================================
 
     try:
 
@@ -131,9 +122,7 @@ def webhook():
         "unknown"
     )
 
-    # ==================================================
     # 5. DISPLAY EVENT
-    # ==================================================
 
     print("\n" + "=" * 60)
     print("🚨 RAZORGUARD WEBHOOK RECEIVED")
@@ -154,9 +143,7 @@ def webhook():
         event_id
     )
 
-    # ==================================================
     # 6. EXTRACT PAYMENT
-    # ==================================================
 
     payment = (
         payload
@@ -195,9 +182,7 @@ def webhook():
             payment.get("method")
         )
 
-    # ==================================================
     # 7. RAZORGUARD LIVE PIPELINE
-    # ==================================================
 
     if event == "payment.captured" and payment:
 
@@ -222,9 +207,7 @@ def webhook():
         print("🔍 RAZORGUARD LIVE PIPELINE")
         print("=" * 60)
 
-        # ------------------------------------------------
         # DEMO MERCHANT STATE
-        # ------------------------------------------------
         # Razorpay = CAPTURED
         # Merchant DB = UNPAID
         #
@@ -271,9 +254,7 @@ def webhook():
                 "\n✓ No RazorGuard exception"
             )
 
-    # ==================================================
     # 8. SAVE AUDIT RECORD
-    # ==================================================
 
     record = {
 
@@ -300,9 +281,7 @@ def webhook():
             json.dumps(record) + "\n"
         )
 
-    # ==================================================
     # 9. MARK EVENT PROCESSED
-    # ==================================================
 
     mark_processed(event_id)
 
